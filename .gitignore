@@ -1,0 +1,16 @@
+secrets.yaml
+
+# 모든 'c' 확장자 파일 생략
+*.c 
+
+# 루트 디렉터리 내 secrets.yaml 생략
+/secrets.yaml
+
+# 'c' 확장자 중 무시하면 안되는 겨우
+!not_ignore_this.c
+
+# logs라는 파일 및 logs폴더와 그 내용
+logs 
+
+# logs라는 폴더와 그 내용들
+logs/ 
